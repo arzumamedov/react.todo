@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.to-do-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h1 {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 250px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+}
+
+
+
+#btn {
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color: rgb(142, 9, 162);
+    margin-left: 5px;
+    color: #fff;
+}
+
+.content {
+    width: 325px;
+    min-height: 400px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 0 0 30px;
+}
+
+#deleteBtn {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(196, 0, 0);
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+.doneBtn {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(30, 154, 34);
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+p {
+    padding: 5px 0;
+}
+
+.lineTh {
+    text-decoration: line-through;
+}
+
+li {
+    margin: 10px 0
+}
